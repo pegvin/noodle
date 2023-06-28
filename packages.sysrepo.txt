@@ -1,1 +1,49 @@
+# Lightweight Notification Daemon
+dunst
+
+# Image Viewer
+feh
+
+# Video Player
+mpv
+
+# Terminal File Manager
+lf
+
+# File Previews/Info For lf (Terminal File Manager)
+ffmpegthumbnailer
+mediainfo
+ueberzug
+bat
+
+gst-libav
+gst-plugins-bad
+gst-plugins-ugly
+
+# Audio
+alsa-utils
+pipewire-alsa
+
+# Shell & Text Editor
 zsh
+nano
+
+# Lightweight X Hotkey Daemon
+sxhkd
+
+# Archive Manager For X
+xarchiver
+
+# Archive Supports For "xarchiver"
+unrar
+unzip
+p7zip
+zip
+
+# Support for brightness, dwm status bar & wallpaper
+xorg-xbacklight
+xorg-xsetroot
+xwallpaper
+
+# For Controlling Brightness without having to mess with "xorg-xbacklight"
+brightnessctl
