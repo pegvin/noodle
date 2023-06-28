@@ -34,7 +34,7 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^[[A" history-beginning-search-backward-end
 bindkey "^[[B" history-beginning-search-forward-end
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh 2>/dev/null
 source $ZDOTDIR/zsh-history-substring-search/zsh-history-substring-search.zsh 2>/dev/null
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND="none"
 
