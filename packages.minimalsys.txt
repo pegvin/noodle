@@ -1,0 +1,41 @@
+# Boot Manager
+efibootmgr
+grub
+
+# Kernel
+linux
+linux-firmware
+
+# Base System
+base
+base-devel
+
+# Video Acceleration API Drivers
+libva-intel-driver
+libva-mesa-driver
+
+# Audio Support
+pipewire-alsa
+alsa-utils
+
+# Minimal Xorg Setup
+xf86-video-vesa
+xorg-fonts-75dpi
+xorg-mkfontscale
+xorg-server
+xorg-server-xnest
+xorg-sessreg
+xorg-smproxy
+xorg-xinit
+xorg-xinput
+xorg-xkbevd
+xorg-xkbutils
+xorg-xkill
+xorg-xrefresh
+
+# Lightweight Compositor
+picom
+
+# Misc
+wget
+git
