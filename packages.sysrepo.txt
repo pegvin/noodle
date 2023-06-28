@@ -10,6 +10,9 @@ mpv
 # Terminal File Manager
 lf
 
+# For Recording Screen Or Taking Screenshots
+ffmpeg
+
 # File Previews/Info For lf (Terminal File Manager)
 ffmpegthumbnailer
 mediainfo
