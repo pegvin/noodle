@@ -1,0 +1,8 @@
+#!/bin/bash
+
+FILENAME="$(date +"%d-%m-%Y-%H-%M-%S")".png
+OUTDIR=~/Pictures/Screenshots
+mkdir -p $OUTDIR
+ffmpeg -f x11grab -framerate 1 -ss 00:00:05 -video_size 1600x900 -i :0.0 -vframes 1 $OUTDIR/$FILENAME >  /dev/null 2>&1
+
+notify-send -i $OUTDIR/$FILENAME "Captured $FILENAME"
