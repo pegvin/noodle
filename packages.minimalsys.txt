@@ -35,7 +35,3 @@ xorg-xrefresh
 
 # Lightweight Compositor
 picom
-
-# Misc
-wget
-git
