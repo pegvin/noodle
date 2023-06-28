@@ -16,10 +16,6 @@ mediainfo
 ueberzug
 bat
 
-gst-libav
-gst-plugins-bad
-gst-plugins-ugly
-
 # Audio
 alsa-utils
 pipewire-alsa
